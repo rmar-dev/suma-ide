@@ -1,3 +1,11 @@
+---
+layout: default
+title: 03 Database Specification
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Database Specification: Secure Authentication System
 
 ## 1. Database Architecture Overview

@@ -1,3 +1,11 @@
+---
+layout: default
+title: State Management
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # arch-state-management-generator
 
 **Project**: SUMA Finance

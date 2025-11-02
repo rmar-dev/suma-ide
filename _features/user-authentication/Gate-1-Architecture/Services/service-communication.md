@@ -1,3 +1,11 @@
+---
+layout: default
+title: Service Communication
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Service Communication Patterns
 
 **Project**: SUMA Finance

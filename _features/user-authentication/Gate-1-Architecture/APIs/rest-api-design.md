@@ -1,3 +1,11 @@
+---
+layout: default
+title: Rest Api Design
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # REST API Design
 
 **Project**: SUMA Finance

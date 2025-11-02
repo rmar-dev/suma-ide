@@ -1,3 +1,11 @@
+---
+layout: default
+title: GATE0 SUMMARY
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Gate 0 Requirements Summary: SUMA Finance - User Registration & Authentication
 
 ## Executive Summary

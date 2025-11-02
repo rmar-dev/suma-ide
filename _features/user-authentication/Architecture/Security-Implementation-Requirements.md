@@ -1,3 +1,11 @@
+---
+layout: default
+title: Security Implementation Requirements
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Security Implementation Requirements
 
 **Feature:**  user registration   authentication

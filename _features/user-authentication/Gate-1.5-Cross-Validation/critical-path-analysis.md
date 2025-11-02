@@ -1,3 +1,11 @@
+---
+layout: default
+title: Critical Path Analysis
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Gate 1.5: Critical Path Analysis
 
 **Project**: SUMA Finance  

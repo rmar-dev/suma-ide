@@ -1,3 +1,11 @@
+---
+layout: default
+title: Business Logic
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Backend Business Logic - User Registration & Authentication
 
 ## 1. Business Rules Overview

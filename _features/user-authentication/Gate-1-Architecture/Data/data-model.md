@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Model
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Gate 1: Data Model Architecture - SUMA Finance User Registration & Authentication
 
 ## 1. Data Model Overview

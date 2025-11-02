@@ -1,3 +1,11 @@
+---
+layout: default
+title: Authorization Design
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Gate 1: Authorization Design Architecture
 
 ## 1. Authorization Architecture Overview

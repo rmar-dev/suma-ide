@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Encryption
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Data Encryption Architecture - SUMA Finance
 
 **Project**: SUMA Finance  

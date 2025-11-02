@@ -1,3 +1,11 @@
+---
+layout: default
+title: GATE1 SUMMARY
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Gate 1: Architecture Summary
 
 ## 1. Executive Summary

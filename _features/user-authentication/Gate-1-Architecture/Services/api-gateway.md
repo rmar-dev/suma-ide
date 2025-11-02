@@ -1,3 +1,11 @@
+---
+layout: default
+title: Api Gateway
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # API Gateway Design
 
 **Project**: SUMA Finance

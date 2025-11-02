@@ -1,3 +1,11 @@
+---
+layout: default
+title: Infrastructure As Code
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # arch-infrastructure-as-code-generator
 
 **Project**: SUMA Finance

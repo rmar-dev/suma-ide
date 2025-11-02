@@ -1,3 +1,11 @@
+---
+layout: default
+title: Security Architecture
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 {
   "success": false,
   "error": "Command failed: claude --print --output-format text < \"C:\\Users\\ricma\\AppData\\Local\\Temp\\claude-skill-1762074659696-es8rhbt9qud.txt\"\n",

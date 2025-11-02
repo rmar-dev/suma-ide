@@ -1,3 +1,11 @@
+---
+layout: default
+title: Api Documentation
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # API Documentation Architecture - SUMA Finance
 
 **Project**: SUMA Finance  

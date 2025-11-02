@@ -1,3 +1,11 @@
+---
+layout: default
+title: Compliance Checklist
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Security Compliance Checklist - Gate 0
 
 **Project**: SUMA Finance  

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Backend API Implementation Requirements
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Backend-API Implementation Requirements
 
 **Feature:**  user registration   authentication

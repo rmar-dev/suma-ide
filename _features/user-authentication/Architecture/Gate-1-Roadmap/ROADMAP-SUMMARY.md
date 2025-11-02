@@ -1,3 +1,11 @@
+---
+layout: default
+title: ROADMAP SUMMARY
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 #  user registration   authentication - Master Roadmap Summary
 
 **Generated:** 2025-11-01

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Indexing Strategy
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Database Indexing Strategy - SUMA Finance: User Registration & Authentication
 
 ## 1. Indexing Strategy Overview

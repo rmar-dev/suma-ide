@@ -1,3 +1,11 @@
+---
+layout: default
+title: Team Coordination Plan
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 {
   "success": false,
   "error": "Command failed: claude --print --output-format text < \"C:\\Users\\ricma\\AppData\\Local\\Temp\\claude-skill-1762039260676-qeitlumnv5.txt\"\n",

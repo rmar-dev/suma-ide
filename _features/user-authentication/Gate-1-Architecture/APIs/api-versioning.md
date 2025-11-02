@@ -1,3 +1,11 @@
+---
+layout: default
+title: Api Versioning
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # API Versioning Strategy
 
 **Project**: SUMA Finance

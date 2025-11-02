@@ -1,3 +1,11 @@
+---
+layout: default
+title: 05 Security Compliance
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Security & Compliance Specification
 
 ## 1. Security Architecture Overview

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Caching Strategy
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Caching Strategy
 
 **Project**: SUMA Finance

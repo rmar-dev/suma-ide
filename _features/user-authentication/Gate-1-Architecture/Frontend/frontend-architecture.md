@@ -1,3 +1,11 @@
+---
+layout: default
+title: Frontend Architecture
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Frontend Architecture
 
 **Project**: SUMA Finance

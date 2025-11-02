@@ -1,3 +1,11 @@
+---
+layout: default
+title: Cicd Pipeline
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # CI/CD Pipeline Design
 
 **Project**: SUMA Finance

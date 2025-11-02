@@ -1,3 +1,11 @@
+---
+layout: default
+title: Feature Intention
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Feature Intention
 
 **Project**: SUMA Finance

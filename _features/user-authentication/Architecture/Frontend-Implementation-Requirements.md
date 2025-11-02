@@ -1,3 +1,11 @@
+---
+layout: default
+title: Frontend Implementation Requirements
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Frontend Implementation Requirements
 
 **Feature:**  user registration   authentication

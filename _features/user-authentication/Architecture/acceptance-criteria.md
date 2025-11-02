@@ -1,3 +1,11 @@
+---
+layout: default
+title: Acceptance Criteria
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Acceptance Criteria
 
 **Project**: SUMA Finance

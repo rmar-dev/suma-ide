@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Migration Plan
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Data Migration Plan
 
 **Project**: SUMA Finance

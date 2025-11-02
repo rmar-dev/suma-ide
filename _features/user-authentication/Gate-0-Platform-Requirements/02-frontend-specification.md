@@ -1,3 +1,11 @@
+---
+layout: default
+title: 02 Frontend Specification
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # Frontend Specification: Authentication System
 
 ## 1. Frontend Architecture Overview

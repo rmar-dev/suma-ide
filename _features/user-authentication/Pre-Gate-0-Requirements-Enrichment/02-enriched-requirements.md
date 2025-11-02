@@ -1,3 +1,11 @@
+---
+layout: default
+title: 02 Enriched Requirements
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 {
   "projectType": "fintech",
   "detectedKeywords": [

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Data Encryption
+parent: User Authentication
+grand_parent: Features
+nav_exclude: true
+---
+
 # arch-data-encryption-generator
 
 **Project**: SUMA Finance
