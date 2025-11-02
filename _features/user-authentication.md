@@ -56,44 +56,44 @@ graph LR
 
 Enriched initial requirements with codebase context and architectural patterns.
 
-📁 [View Pre-Gate 0 Output](user-authentication/Pre-Gate-0-Requirements-Enrichment)
+📁 [View Pre-Gate 0 Output](https://github.com/rmar-dev/suma-ide/tree/main/_features/user-authentication/Pre-Gate-0-Requirements-Enrichment)
 
 ### Gate 0: Requirements Parsing
 
 Parsed and validated functional and non-functional requirements.
 
-📁 [View Gate 0 Output](user-authentication/Gate-0-Output)
+📁 [View Gate 0 Output](https://github.com/rmar-dev/suma-ide/tree/main/_features/user-authentication/Gate-0-Output)
 
 Platform-specific requirements:
-- 📁 [Platform Requirements](user-authentication/Gate-0-Platform-Requirements)
+- 📁 [Platform Requirements](https://github.com/rmar-dev/suma-ide/tree/main/_features/user-authentication/Gate-0-Platform-Requirements)
 
 ### Gate 1: Architecture Design
 
 Generated complete system architecture across all platforms.
 
-📁 [View Gate 1 Architecture](user-authentication/Gate-1-Architecture)
+📁 [View Gate 1 Architecture](https://github.com/rmar-dev/suma-ide/tree/main/_features/user-authentication/Gate-1-Architecture)
 
 **Key Documents**:
-- [Architecture README](user-authentication/Architecture/ARCHITECTURE-README) - Overview
-- [Backend API](user-authentication/Architecture/Backend-API-Implementation-Requirements) - API design
-- [Database](user-authentication/Architecture/Database-Implementation-Requirements) - Data layer
-- [API Documentation](user-authentication/Architecture/APIs/api-documentation) - Endpoints
+- [Architecture README](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/ARCHITECTURE-README.md) - Overview
+- [Backend API](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Backend-API-Implementation-Requirements.md) - API design
+- [Database](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Database-Implementation-Requirements.md) - Data layer
+- [API Documentation](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/APIs/api-documentation.md) - Endpoints
 
 **Architecture Components**:
-- [Frontend Architecture](user-authentication/Architecture/Frontend/frontend-architecture)
-- [Component Architecture](user-authentication/Architecture/Frontend/component-architecture)
-- [Database Architecture](user-authentication/Architecture/Database/database-architecture)
-- [REST API Design](user-authentication/Architecture/APIs/rest-api-design)
-- [GraphQL Schema](user-authentication/Architecture/APIs/graphql-schema)
-- [Deployment Architecture](user-authentication/Architecture/Deployment/deployment-architecture)
-- [CI/CD Pipeline](user-authentication/Architecture/Deployment/cicd-pipeline)
-- [Monitoring & Logging](user-authentication/Architecture/Deployment/monitoring-logging)
+- [Frontend Architecture](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Frontend/frontend-architecture.md)
+- [Component Architecture](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Frontend/component-architecture.md)
+- [Database Architecture](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Database/database-architecture.md)
+- [REST API Design](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/APIs/rest-api-design.md)
+- [GraphQL Schema](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/APIs/graphql-schema.md)
+- [Deployment Architecture](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Deployment/deployment-architecture.md)
+- [CI/CD Pipeline](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Deployment/cicd-pipeline.md)
+- [Monitoring & Logging](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Deployment/monitoring-logging.md)
 
 ### Gate 1.5: Cross-Validation
 
 Validated architecture for compliance, security, and best practices.
 
-📁 [View Gate 1.5 Validation](user-authentication/Gate-1.5-Cross-Validation)
+📁 [View Gate 1.5 Validation](https://github.com/rmar-dev/suma-ide/tree/main/_features/user-authentication/Gate-1.5-Cross-Validation)
 
 ---
 
@@ -207,17 +207,17 @@ sequenceDiagram
 ## Files & Artifacts
 
 ### Configuration
-- [project-state.json](user-authentication/project-state) - Current state
-- [document-analysis.json](user-authentication/document-analysis) - Analysis results
-- [document-generation-tracking.json](user-authentication/document-generation-tracking) - Generation tracking
+- [project-state.json](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/project-state.json) - Current state
+- [document-analysis.json](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/document-analysis.json) - Analysis results
+- [document-generation-tracking.json](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/document-generation-tracking.json) - Generation tracking
 
 ### Acceptance Criteria
-- [Acceptance Criteria](user-authentication/Architecture/acceptance-criteria) - Feature acceptance
+- [Acceptance Criteria](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/acceptance-criteria.md) - Feature acceptance
 
 ### Infrastructure
-- [Infrastructure as Code](user-authentication/Architecture/Deployment/infrastructure-as-code) - Terraform/IaC
-- [Caching Strategy](user-authentication/Architecture/Database/caching-strategy) - Redis caching
-- [Data Migration Plan](user-authentication/Architecture/Database/data-migration-plan) - DB migrations
+- [Infrastructure as Code](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Deployment/infrastructure-as-code.md) - Terraform/IaC
+- [Caching Strategy](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Database/caching-strategy.md) - Redis caching
+- [Data Migration Plan](https://github.com/rmar-dev/suma-ide/blob/main/_features/user-authentication/Architecture/Database/data-migration-plan.md) - DB migrations
 
 ---
 
