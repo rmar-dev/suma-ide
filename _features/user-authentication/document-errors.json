@@ -1,0 +1,26 @@
+[
+  {
+    "documentName": "authorization-design.md",
+    "documentPath": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authorization-design.md",
+    "folder": "Security",
+    "skill": "arch-authorization-design-generator",
+    "errorMessage": "Document was never generated - missing from Architecture folder",
+    "errorType": "file_not_found",
+    "category": "file_not_found",
+    "recommendedAction": {
+      "action": "retry",
+      "description": "Retry document generation",
+      "priority": "high",
+      "autoRetry": false,
+      "requiresManualIntervention": true
+    },
+    "status": "pending",
+    "retryAttempts": 1,
+    "firstOccurrence": "2025-11-01T22:41:19.241Z",
+    "lastOccurrence": "2025-11-01T22:41:19.244Z",
+    "occurrenceCount": 1,
+    "splitRecommended": false,
+    "gate": "Architecture Gate",
+    "metadata": {}
+  }
+]

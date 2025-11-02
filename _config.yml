@@ -68,6 +68,9 @@ collections:
   requirements:
     permalink: "/:collection/:path/"
     output: true
+  features:
+    permalink: "/:collection/:path/"
+    output: true
   api:
     permalink: "/:collection/:path/"
     output: true
@@ -83,6 +86,9 @@ just_the_docs:
       nav_fold: false
     requirements:
       name: Requirements
+      nav_fold: false
+    features:
+      name: Features
       nav_fold: false
     api:
       name: API Reference

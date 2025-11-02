@@ -1,0 +1,166 @@
+{
+  "projectPath": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59",
+  "lastUpdated": "2025-11-01T22:41:19.244Z",
+  "totalDocuments": 4,
+  "stats": {
+    "total": 4,
+    "pending": 0,
+    "inProgress": 0,
+    "successful": 3,
+    "failed": 1,
+    "splitRequired": 0,
+    "successRate": 75,
+    "byCategory": {
+      "file_not_found": 1
+    }
+  },
+  "documents": [
+    {
+      "filename": "security-architecture.md",
+      "folder": "Security",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/security-architecture.md",
+      "skill": "arch-security-architecture-generator",
+      "label": "Security Architecture",
+      "gate": "Architecture Gate",
+      "required": true,
+      "status": "success",
+      "registeredAt": "2025-11-01T22:41:19.119Z",
+      "lastUpdated": "2025-11-01T22:41:19.220Z",
+      "attempts": [
+        {
+          "attemptNumber": 1,
+          "startedAt": "2025-11-01T22:41:19.213Z",
+          "completedAt": "2025-11-01T22:41:19.220Z",
+          "success": true,
+          "error": null,
+          "duration": 0.007,
+          "bridgePort": null,
+          "outputSize": 60397
+        }
+      ],
+      "currentAttempt": 1,
+      "generatedAt": "2025-11-01T22:41:19.220Z",
+      "fileSize": 60397,
+      "duration": 0.007,
+      "bridgePort": null,
+      "lastError": null,
+      "errorCategory": null,
+      "retryCount": 0,
+      "splitRecommended": false,
+      "metadata": {}
+    },
+    {
+      "filename": "authentication-design.md",
+      "folder": "Security",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authentication-design.md",
+      "skill": "arch-authentication-design-generator",
+      "label": "Authentication Design",
+      "gate": "Architecture Gate",
+      "required": true,
+      "status": "success",
+      "registeredAt": "2025-11-01T22:41:19.125Z",
+      "lastUpdated": "2025-11-01T22:41:19.181Z",
+      "attempts": [
+        {
+          "attemptNumber": 1,
+          "startedAt": "2025-11-01T22:41:19.178Z",
+          "completedAt": "2025-11-01T22:41:19.181Z",
+          "success": true,
+          "error": null,
+          "duration": 0.003,
+          "bridgePort": null,
+          "outputSize": 68695
+        }
+      ],
+      "currentAttempt": 1,
+      "generatedAt": "2025-11-01T22:41:19.181Z",
+      "fileSize": 68695,
+      "duration": 0.003,
+      "bridgePort": null,
+      "lastError": null,
+      "errorCategory": null,
+      "retryCount": 0,
+      "splitRecommended": false,
+      "metadata": {}
+    },
+    {
+      "filename": "authorization-design.md",
+      "folder": "Security",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authorization-design.md",
+      "skill": "arch-authorization-design-generator",
+      "label": "Authorization Design",
+      "gate": "Architecture Gate",
+      "required": true,
+      "status": "failed",
+      "registeredAt": "2025-11-01T22:41:19.138Z",
+      "lastUpdated": "2025-11-01T22:41:19.244Z",
+      "attempts": [
+        {
+          "attemptNumber": 1,
+          "startedAt": "2025-11-01T22:41:19.241Z",
+          "completedAt": "2025-11-01T22:41:19.244Z",
+          "success": false,
+          "error": {
+            "type": "file_not_found",
+            "message": "Document was never generated - missing from Architecture folder",
+            "category": "file_not_found",
+            "details": {}
+          },
+          "duration": 0.003,
+          "bridgePort": null,
+          "outputSize": null
+        }
+      ],
+      "currentAttempt": 1,
+      "generatedAt": null,
+      "fileSize": null,
+      "duration": null,
+      "bridgePort": null,
+      "lastError": {
+        "type": "file_not_found",
+        "message": "Document was never generated - missing from Architecture folder",
+        "category": "file_not_found",
+        "occurredAt": "2025-11-01T22:41:19.244Z",
+        "details": {}
+      },
+      "errorCategory": "file_not_found",
+      "retryCount": 1,
+      "splitRecommended": false,
+      "metadata": {}
+    },
+    {
+      "filename": "data-encryption.md",
+      "folder": "Security",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/data-encryption.md",
+      "skill": "arch-data-encryption-generator",
+      "label": "Data Encryption",
+      "gate": "Architecture Gate",
+      "required": true,
+      "status": "success",
+      "registeredAt": "2025-11-01T22:41:19.155Z",
+      "lastUpdated": "2025-11-01T22:41:19.202Z",
+      "attempts": [
+        {
+          "attemptNumber": 1,
+          "startedAt": "2025-11-01T22:41:19.196Z",
+          "completedAt": "2025-11-01T22:41:19.202Z",
+          "success": true,
+          "error": null,
+          "duration": 0.006,
+          "bridgePort": null,
+          "outputSize": 45969
+        }
+      ],
+      "currentAttempt": 1,
+      "generatedAt": "2025-11-01T22:41:19.202Z",
+      "fileSize": 45969,
+      "duration": 0.006,
+      "bridgePort": null,
+      "lastError": null,
+      "errorCategory": null,
+      "retryCount": 0,
+      "splitRecommended": false,
+      "metadata": {}
+    }
+  ]
+}

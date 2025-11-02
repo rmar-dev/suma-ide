@@ -1,0 +1,105 @@
+{
+  "projectName": "-user-registration---authentication_2025-10-29_23-30-59",
+  "analyzedAt": "2025-11-01T15:50:16.517Z",
+  "failedDocuments": [
+    {
+      "filename": "authentication-design.md",
+      "workstream": "Security",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authentication-design.md",
+      "status": "failed",
+      "error": "Prompt exceeds maximum context length",
+      "errorType": "context_too_long",
+      "missingElements": [],
+      "suggestedEnhancements": [
+        "Set CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000 or higher",
+        "Consider breaking document into smaller sections"
+      ],
+      "regenerationPrompt": "# Authentication Design -  user registration   authentication\n\n## Context\n- **Feature**:  user registration   authentication\n- **Project Type**: fintech\n- **Workstream**: Security\n\n## Technology Stack\n\n## Requirements\nGenerate a comprehensive Authentication Design document for  user registration   authentication.\nInclude all standard sections for a security architecture document.\n",
+      "regenerationReady": true,
+      "skillName": "arch-authentication-design-generator",
+      "contextData": {
+        "featureName": " user registration   authentication",
+        "projectType": "fintech",
+        "techStack": {},
+        "securityRequirements": [],
+        "workstreamRequirements": [
+          "- **Principle of Least Privilege**: Users receive minimum permissions required for their role",
+          "- **Separation of Duties**: Critical operations require multiple roles (e.g., financial transaction approval)",
+          "claims := c.MustGet(\"jwt_claims\").(JWTClaims)",
+          "// Decision logic: ANY deny = overall deny, ALL allows required",
+          "risk_level VARCHAR(20) DEFAULT 'low', -- low, medium, high, critical",
+          "userID := c.MustGet(\"user_id\").(string)",
+          "\"message\": \"You must be the owner of this resource\",",
+          "p_required_level VARCHAR",
+          "CASE p_required_level",
+          "func HasSharedAccess(ctx context.Context, userID, resourceType, resourceID, requiredLevel string) (bool, error) {",
+          "`, userID, resourceType, resourceID, requiredLevel).Scan(&hasAccess)",
+          "userID := c.MustGet(\"user_id\").(string)",
+          "required_permission VARCHAR(100), -- e.g., 'transaction:approve'",
+          "required_role VARCHAR(100),",
+          "INSERT INTO workflow_states (resource_type, state, allowed_transitions, required_permission, required_role) VALUES",
+          "var requiredPermission, requiredRole string",
+          "SELECT allowed_transitions, required_permission, required_role",
+          "`, resourceType, currentState).Scan(&allowedTransitions, &requiredPermission, &requiredRole)",
+          "// 2. Check user has required permission",
+          "if requiredPermission != \"\" {",
+          "parts := strings.Split(requiredPermission, \":\")",
+          "// 3. Check user has required role",
+          "if requiredRole != \"\" {",
+          "hasRole, _ := HasRole(ctx, userID, requiredRole)",
+          "userID := c.MustGet(\"user_id\").(string)",
+          "\"message\": \"Administrator privileges required\",",
+          "userRoles := c.MustGet(\"user_roles\").([]string)",
+          "requiredLevel := roleHierarchy[minimumRole]",
+          "if userLevel < requiredLevel {",
+          "userID := c.MustGet(\"user_id\").(string)",
+          "RequiredRole string",
+          "RequiredPermission string",
+          "{Field: \"ssn\", RequiredRole: \"Admin\"},",
+          "{Field: \"salary\", RequiredPermission: \"users:view_salary\"},",
+          "{Field: \"medical_info\", RequiredRole: \"HR\"},",
+          "{Field: \"date_of_birth\", RequiredPermission: \"users:view_pii\"},",
+          "if policy.RequiredRole != \"\" && contains(userRoles, policy.RequiredRole) {",
+          "if policy.RequiredPermission != \"\" && contains(userPermissions, policy.RequiredPermission) {",
+          "currentUserID := c.MustGet(\"user_id\").(string)",
+          "if requiredPerm, isRestricted := restrictedFields[field]; isRestricted {",
+          "parts := strings.Split(requiredPerm, \":\")",
+          "userID := c.MustGet(\"user_id\").(string)",
+          "claims := c.MustGet(\"jwt_claims\").(JWTClaims)",
+          "userID := c.MustGet(\"user_id\").(string)",
+          "tenantID := c.MustGet(\"tenant_id\").(string)",
+          "c.AbortWithStatusJSON(403, gin.H{\"error\": \"tenant_admin_required\"})"
+        ]
+      }
+    },
+    {
+      "filename": "api-gateway.md",
+      "workstream": "Services",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Services/api-gateway.md",
+      "status": "failed",
+      "error": "Prompt exceeds maximum context length",
+      "errorType": "context_too_long",
+      "missingElements": [],
+      "suggestedEnhancements": [
+        "Set CLAUDE_CODE_MAX_OUTPUT_TOKENS=64000 or higher",
+        "Consider breaking document into smaller sections"
+      ],
+      "regenerationPrompt": "# API Gateway Design -  user registration   authentication\n\n## Context\n- **Feature**:  user registration   authentication\n- **Project Type**: fintech\n- **Workstream**: Services\n\n## Technology Stack\n\n## Requirements\nGenerate a comprehensive API Gateway Design document for  user registration   authentication.\nInclude all standard sections for a services architecture document.\n",
+      "regenerationReady": true,
+      "skillName": "arch-api-gateway-generator",
+      "contextData": {
+        "featureName": " user registration   authentication",
+        "projectType": "fintech",
+        "techStack": {},
+        "securityRequirements": [],
+        "workstreamRequirements": []
+      }
+    }
+  ],
+  "incompleteDocuments": [],
+  "summary": {
+    "totalFailed": 2,
+    "totalIncomplete": 0,
+    "readyForRegeneration": 2
+  }
+}

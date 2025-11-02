@@ -1,0 +1,1919 @@
+{
+  "metadata": {
+    "indexedAt": "2025-11-01T22:34:22.681Z",
+    "totalDocuments": 3,
+    "totalWorkstreams": 3,
+    "totalSections": 33
+  },
+  "workstreams": {
+    "Security": {
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security",
+      "documents": [
+        {
+          "workstream": "Security",
+          "file": "authentication-design.md",
+          "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authentication-design.md",
+          "title": "Authentication Design Architecture",
+          "sections": [
+            {
+              "title": "1. Authentication Architecture Overview",
+              "position": 184
+            },
+            {
+              "title": "2. Authentication Methods Design",
+              "position": 5103
+            },
+            {
+              "title": "3. Password Security Architecture",
+              "position": 24724
+            },
+            {
+              "title": "4. Session Management Architecture",
+              "position": 35528
+            },
+            {
+              "title": "5. Token-Based Authentication Architecture",
+              "position": 49144
+            },
+            {
+              "title": "6. Login Security Features",
+              "position": 60175
+            }
+          ],
+          "sectionCount": 6,
+          "priorities": [
+            {
+              "level": "must-have",
+              "text": "- Least privilege: Grant minimum required permissions",
+              "section": "1. Authentication Architecture Overview",
+              "lineNumber": 17
+            },
+            {
+              "level": "must-have",
+              "text": "- Email verification required before account activation",
+              "section": "2. Authentication Methods Design",
+              "lineNumber": 190
+            },
+            {
+              "level": "should-have",
+              "text": "userVerification: \"preferred\"",
+              "section": "2. Authentication Methods Design",
+              "lineNumber": 493
+            },
+            {
+              "level": "should-have",
+              "text": "userVerification: \"preferred\"",
+              "section": "2. Authentication Methods Design",
+              "lineNumber": 517
+            },
+            {
+              "level": "nice-to-have",
+              "text": "**Privacy Considerations:**",
+              "section": "2. Authentication Methods Design",
+              "lineNumber": 582
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push(`Password must be at least ${passwordPolicy.minLength} characters`);",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 954
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push(`Password must not exceed ${passwordPolicy.maxLength} characters`);",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 957
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push('Password must contain at least one uppercase letter');",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 962
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push('Password must contain at least one lowercase letter');",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 965
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push('Password must contain at least one number');",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 968
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push('Password must contain at least one special character');",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 971
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push('Password must not contain your username');",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 992
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push('Password must not contain your email');",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 995
+            },
+            {
+              "level": "must-have",
+              "text": "errors.push(`Password must not match any of your last ${passwordPolicy.preventPasswordReuse} passwords`);",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 1003
+            },
+            {
+              "level": "should-have",
+              "text": "**Argon2id Implementation (Recommended):**",
+              "section": "3. Password Security Architecture",
+              "lineNumber": 1066
+            },
+            {
+              "level": "nice-to-have",
+              "text": "// Fingerprint mismatch - potential session hijacking",
+              "section": "4. Session Management Architecture",
+              "lineNumber": 1848
+            },
+            {
+              "level": "nice-to-have",
+              "text": "// Optional: Invalidate session",
+              "section": "4. Session Management Architecture",
+              "lineNumber": 1857
+            },
+            {
+              "level": "nice-to-have",
+              "text": "// Potential security breach - revoke entire token chain",
+              "section": "5. Token-Based Authentication Architecture",
+              "lineNumber": 2031
+            },
+            {
+              "level": "must-have",
+              "text": "function validateAPIKeyScopes(key, requiredScopes) {",
+              "section": "5. Token-Based Authentication Architecture",
+              "lineNumber": 2227
+            },
+            {
+              "level": "must-have",
+              "text": "return requiredScopes.every(scope => key.scopes.includes(scope));",
+              "section": "5. Token-Based Authentication Architecture",
+              "lineNumber": 2228
+            },
+            {
+              "level": "must-have",
+              "text": "function requireAPIKeyScope(...requiredScopes) {",
+              "section": "5. Token-Based Authentication Architecture",
+              "lineNumber": 2232
+            },
+            {
+              "level": "must-have",
+              "text": "return res.status(401).json({ error: 'API key required' });",
+              "section": "5. Token-Based Authentication Architecture",
+              "lineNumber": 2235
+            },
+            {
+              "level": "must-have",
+              "text": "if (!validateAPIKeyScopes(req.apiKey, requiredScopes)) {",
+              "section": "5. Token-Based Authentication Architecture",
+              "lineNumber": 2238
+            },
+            {
+              "level": "should-have",
+              "text": "async function shouldRequireCaptcha(email, ip) {",
+              "section": "6. Login Security Features",
+              "lineNumber": 2480
+            },
+            {
+              "level": "must-have",
+              "text": "// Check if CAPTCHA required",
+              "section": "6. Login Security Features",
+              "lineNumber": 2501
+            },
+            {
+              "level": "should-have",
+              "text": "const requireCaptcha = await shouldRequireCaptcha(email, ip);",
+              "section": "6. Login Security Features",
+              "lineNumber": 2502
+            },
+            {
+              "level": "must-have",
+              "text": "error: 'CAPTCHA required',",
+              "section": "6. Login Security Features",
+              "lineNumber": 2507
+            }
+          ],
+          "domains": [
+            "authentication",
+            "authorization",
+            "database",
+            "api",
+            "frontend",
+            "deployment",
+            "security",
+            "performance",
+            "monitoring"
+          ],
+          "keywords": [
+            "login",
+            "jwt",
+            "token",
+            "oauth",
+            "sso",
+            "mfa",
+            "session",
+            "permission",
+            "role",
+            "acl",
+            "policy",
+            "schema",
+            "table",
+            "index",
+            "query",
+            "migration",
+            "orm",
+            "sql",
+            "endpoint",
+            "rest"
+          ],
+          "size": 67841,
+          "lastModified": "2025-11-01T16:49:25.052Z"
+        }
+      ],
+      "totalSections": 6,
+      "keywords": [
+        "login",
+        "jwt",
+        "token",
+        "oauth",
+        "sso",
+        "mfa",
+        "session",
+        "permission",
+        "role",
+        "acl",
+        "policy",
+        "schema",
+        "table",
+        "index",
+        "query",
+        "migration",
+        "orm",
+        "sql",
+        "endpoint",
+        "rest"
+      ]
+    },
+    "Frontend": {
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Frontend",
+      "documents": [
+        {
+          "workstream": "Frontend",
+          "file": "frontend-architecture.md",
+          "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Frontend/frontend-architecture.md",
+          "title": "Frontend Architecture - User Registration & Authentication",
+          "sections": [
+            {
+              "title": "1. Architecture Overview",
+              "position": 224
+            },
+            {
+              "title": "2. Component Architecture",
+              "position": 2207
+            },
+            {
+              "title": "3. State Management",
+              "position": 5130
+            },
+            {
+              "title": "4. Routing & Navigation",
+              "position": 6803
+            },
+            {
+              "title": "5. Form Management & Validation",
+              "position": 7903
+            },
+            {
+              "title": "6. Security Implementation",
+              "position": 9561
+            },
+            {
+              "title": "7. API Integration",
+              "position": 12834
+            },
+            {
+              "title": "8. Performance Optimization",
+              "position": 15863
+            },
+            {
+              "title": "9. Testing Strategy",
+              "position": 17735
+            },
+            {
+              "title": "10. Accessibility (WCAG 2.1 AA)",
+              "position": 21422
+            },
+            {
+              "title": "11. Internationalization (i18n)",
+              "position": 23013
+            },
+            {
+              "title": "12. Error Handling & User Feedback",
+              "position": 24547
+            },
+            {
+              "title": "13. Mobile Responsiveness",
+              "position": 26609
+            },
+            {
+              "title": "14. Monitoring & Analytics",
+              "position": 28241
+            },
+            {
+              "title": "15. Build & Deployment",
+              "position": 30067
+            },
+            {
+              "title": "16. Future Enhancements",
+              "position": 32507
+            },
+            {
+              "title": "17. Documentation & Resources",
+              "position": 33234
+            }
+          ],
+          "sectionCount": 17,
+          "priorities": [
+            {
+              "level": "must-have",
+              "text": "// 3. GDPR Consents (required + optional)",
+              "section": "2. Component Architecture",
+              "lineNumber": 126
+            },
+            {
+              "level": "nice-to-have",
+              "text": "// 3. GDPR Consents (required + optional)",
+              "section": "2. Component Architecture",
+              "lineNumber": 126
+            },
+            {
+              "level": "must-have",
+              "text": "onTwoFactorRequired?: (sessionId: string) => void;",
+              "section": "2. Component Architecture",
+              "lineNumber": 134
+            },
+            {
+              "level": "must-have",
+              "text": ".min(12, 'Password must be at least 12 characters')",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 322
+            },
+            {
+              "level": "must-have",
+              "text": ".regex(/[A-Z]/, 'Must contain uppercase letter')",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 323
+            },
+            {
+              "level": "must-have",
+              "text": ".regex(/[a-z]/, 'Must contain lowercase letter')",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 324
+            },
+            {
+              "level": "must-have",
+              "text": ".regex(/[0-9]/, 'Must contain number')",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 325
+            },
+            {
+              "level": "must-have",
+              "text": ".regex(/[^A-Za-z0-9]/, 'Must contain special character'),",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 326
+            },
+            {
+              "level": "must-have",
+              "text": ".min(1, 'First name required')",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 329
+            },
+            {
+              "level": "must-have",
+              "text": ".min(1, 'Last name required')",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 332
+            },
+            {
+              "level": "must-have",
+              "text": ".refine(val => val === true, 'GDPR consent required'),",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 335
+            },
+            {
+              "level": "must-have",
+              "text": ".refine(val => val === true, 'Must accept terms')",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 338
+            },
+            {
+              "level": "must-have",
+              "text": "message: 'Passwords must match',",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 340
+            },
+            {
+              "level": "must-have",
+              "text": "password: z.string().min(1, 'Password required'),",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 349
+            },
+            {
+              "level": "nice-to-have",
+              "text": "rememberMe: z.boolean().optional()",
+              "section": "5. Form Management & Validation",
+              "lineNumber": 350
+            },
+            {
+              "level": "nice-to-have",
+              "text": "- **Service Worker**: Static assets caching (future)",
+              "section": "8. Performance Optimization",
+              "lineNumber": 651
+            },
+            {
+              "level": "must-have",
+              "text": "- **E2E Tests**: 10% coverage - Critical user journeys",
+              "section": "9. Testing Strategy",
+              "lineNumber": 698
+            },
+            {
+              "level": "should-have",
+              "text": "it('should validate email format', async () => {",
+              "section": "9. Testing Strategy",
+              "lineNumber": 704
+            },
+            {
+              "level": "should-have",
+              "text": "it('should call onSuccess when login succeeds', async () => {",
+              "section": "9. Testing Strategy",
+              "lineNumber": 716
+            },
+            {
+              "level": "should-have",
+              "text": "it('should return authenticated user', () => {",
+              "section": "9. Testing Strategy",
+              "lineNumber": 730
+            },
+            {
+              "level": "should-have",
+              "text": "it('should complete full registration', async () => {",
+              "section": "9. Testing Strategy",
+              "lineNumber": 750
+            },
+            {
+              "level": "must-have",
+              "text": "<span className=\"sr-only\">(required)</span>",
+              "section": "10. Accessibility (WCAG 2.1 AA)",
+              "lineNumber": 819
+            },
+            {
+              "level": "must-have",
+              "text": "aria-required=\"true\"",
+              "section": "10. Accessibility (WCAG 2.1 AA)",
+              "lineNumber": 824
+            },
+            {
+              "level": "must-have",
+              "text": "- **Required Fields**: aria-required=\"true\"",
+              "section": "10. Accessibility (WCAG 2.1 AA)",
+              "lineNumber": 859
+            },
+            {
+              "level": "nice-to-have",
+              "text": "### 13.4 PWA Considerations",
+              "section": "13. Mobile Responsiveness",
+              "lineNumber": 1100
+            },
+            {
+              "level": "nice-to-have",
+              "text": "## 16. Future Enhancements",
+              "section": "16. Future Enhancements",
+              "lineNumber": 1324
+            }
+          ],
+          "domains": [
+            "authentication",
+            "authorization",
+            "database",
+            "api",
+            "frontend",
+            "deployment",
+            "testing",
+            "security",
+            "performance",
+            "monitoring"
+          ],
+          "keywords": [
+            "login",
+            "signup",
+            "token",
+            "oauth",
+            "2fa",
+            "session",
+            "role",
+            "policy",
+            "schema",
+            "table",
+            "index",
+            "query",
+            "orm",
+            "endpoint",
+            "rest",
+            "route",
+            "request",
+            "response",
+            "component",
+            "ui"
+          ],
+          "size": 34008,
+          "lastModified": "2025-10-29T23:50:34.303Z"
+        }
+      ],
+      "totalSections": 17,
+      "keywords": [
+        "login",
+        "signup",
+        "token",
+        "oauth",
+        "2fa",
+        "session",
+        "role",
+        "policy",
+        "schema",
+        "table",
+        "index",
+        "query",
+        "orm",
+        "endpoint",
+        "rest",
+        "route",
+        "request",
+        "response",
+        "component",
+        "ui"
+      ]
+    },
+    "Database": {
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Database",
+      "documents": [
+        {
+          "workstream": "Database",
+          "file": "caching-strategy.md",
+          "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Database/caching-strategy.md",
+          "title": "CACHING STRATEGY",
+          "sections": [
+            {
+              "title": "Executive Summary",
+              "position": 152
+            },
+            {
+              "title": "Caching Layers",
+              "position": 1359
+            },
+            {
+              "title": "Cache Technologies",
+              "position": 3573
+            },
+            {
+              "title": "Cache Patterns",
+              "position": 5546
+            },
+            {
+              "title": "Cache Keys Design",
+              "position": 10221
+            },
+            {
+              "title": "Invalidation Strategies",
+              "position": 13698
+            },
+            {
+              "title": "Cache Warming",
+              "position": 20419
+            },
+            {
+              "title": "Cache Monitoring",
+              "position": 23550
+            },
+            {
+              "title": "Best Practices",
+              "position": 27765
+            },
+            {
+              "title": "Appendix",
+              "position": 30610
+            }
+          ],
+          "sectionCount": 10,
+          "priorities": [
+            {
+              "level": "must-have",
+              "text": "- **Notes**: Must be invalidated on security events (password change, logout, permissions update)",
+              "section": "Caching Layers",
+              "lineNumber": 30
+            },
+            {
+              "level": "must-have",
+              "text": "- **Persistence**: RDB snapshots every 5 minutes + AOF for critical data",
+              "section": "Caching Layers",
+              "lineNumber": 49
+            },
+            {
+              "level": "nice-to-have",
+              "text": "Qualifier: Optional sub-resource or attribute",
+              "section": "Cache Keys Design",
+              "lineNumber": 311
+            },
+            {
+              "level": "must-have",
+              "text": "Time-based expiration provides automatic cleanup without manual intervention. Critical for security-sensitive data.",
+              "section": "Invalidation Strategies",
+              "lineNumber": 426
+            },
+            {
+              "level": "must-have",
+              "text": "// Warm critical caches on application startup",
+              "section": "Cache Warming",
+              "lineNumber": 628
+            },
+            {
+              "level": "must-have",
+              "text": "Severity: \"critical\",",
+              "section": "Cache Monitoring",
+              "lineNumber": 892
+            },
+            {
+              "level": "should-have",
+              "text": "## Best Practices",
+              "section": "Best Practices",
+              "lineNumber": 903
+            },
+            {
+              "level": "must-have",
+              "text": "✅ **Invalidate on security-critical updates**",
+              "section": "Best Practices",
+              "lineNumber": 922
+            },
+            {
+              "level": "must-have",
+              "text": "// Good: Warm critical data on startup",
+              "section": "Best Practices",
+              "lineNumber": 1006
+            }
+          ],
+          "domains": [
+            "authentication",
+            "authorization",
+            "database",
+            "api",
+            "frontend",
+            "deployment",
+            "security",
+            "performance",
+            "monitoring"
+          ],
+          "keywords": [
+            "login",
+            "jwt",
+            "token",
+            "oauth",
+            "sso",
+            "session",
+            "permission",
+            "role",
+            "policy",
+            "table",
+            "query",
+            "orm",
+            "endpoint",
+            "rest",
+            "request",
+            "response",
+            "component",
+            "ui",
+            "page",
+            "state"
+          ],
+          "size": 34589,
+          "lastModified": "2025-10-29T23:48:58.670Z"
+        }
+      ],
+      "totalSections": 10,
+      "keywords": [
+        "login",
+        "jwt",
+        "token",
+        "oauth",
+        "sso",
+        "session",
+        "permission",
+        "role",
+        "policy",
+        "table",
+        "query",
+        "orm",
+        "endpoint",
+        "rest",
+        "request",
+        "response",
+        "component",
+        "ui",
+        "page",
+        "state"
+      ]
+    },
+    "APIs": {
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/APIs",
+      "documents": [],
+      "totalSections": 0,
+      "keywords": []
+    }
+  },
+  "documents": {
+    "authentication-design.md": {
+      "workstream": "Security",
+      "file": "authentication-design.md",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authentication-design.md",
+      "title": "Authentication Design Architecture",
+      "sections": [
+        {
+          "title": "1. Authentication Architecture Overview",
+          "position": 184
+        },
+        {
+          "title": "2. Authentication Methods Design",
+          "position": 5103
+        },
+        {
+          "title": "3. Password Security Architecture",
+          "position": 24724
+        },
+        {
+          "title": "4. Session Management Architecture",
+          "position": 35528
+        },
+        {
+          "title": "5. Token-Based Authentication Architecture",
+          "position": 49144
+        },
+        {
+          "title": "6. Login Security Features",
+          "position": 60175
+        }
+      ],
+      "sectionCount": 6,
+      "priorities": [
+        {
+          "level": "must-have",
+          "text": "- Least privilege: Grant minimum required permissions",
+          "section": "1. Authentication Architecture Overview",
+          "lineNumber": 17
+        },
+        {
+          "level": "must-have",
+          "text": "- Email verification required before account activation",
+          "section": "2. Authentication Methods Design",
+          "lineNumber": 190
+        },
+        {
+          "level": "should-have",
+          "text": "userVerification: \"preferred\"",
+          "section": "2. Authentication Methods Design",
+          "lineNumber": 493
+        },
+        {
+          "level": "should-have",
+          "text": "userVerification: \"preferred\"",
+          "section": "2. Authentication Methods Design",
+          "lineNumber": 517
+        },
+        {
+          "level": "nice-to-have",
+          "text": "**Privacy Considerations:**",
+          "section": "2. Authentication Methods Design",
+          "lineNumber": 582
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push(`Password must be at least ${passwordPolicy.minLength} characters`);",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 954
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push(`Password must not exceed ${passwordPolicy.maxLength} characters`);",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 957
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push('Password must contain at least one uppercase letter');",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 962
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push('Password must contain at least one lowercase letter');",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 965
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push('Password must contain at least one number');",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 968
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push('Password must contain at least one special character');",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 971
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push('Password must not contain your username');",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 992
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push('Password must not contain your email');",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 995
+        },
+        {
+          "level": "must-have",
+          "text": "errors.push(`Password must not match any of your last ${passwordPolicy.preventPasswordReuse} passwords`);",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 1003
+        },
+        {
+          "level": "should-have",
+          "text": "**Argon2id Implementation (Recommended):**",
+          "section": "3. Password Security Architecture",
+          "lineNumber": 1066
+        },
+        {
+          "level": "nice-to-have",
+          "text": "// Fingerprint mismatch - potential session hijacking",
+          "section": "4. Session Management Architecture",
+          "lineNumber": 1848
+        },
+        {
+          "level": "nice-to-have",
+          "text": "// Optional: Invalidate session",
+          "section": "4. Session Management Architecture",
+          "lineNumber": 1857
+        },
+        {
+          "level": "nice-to-have",
+          "text": "// Potential security breach - revoke entire token chain",
+          "section": "5. Token-Based Authentication Architecture",
+          "lineNumber": 2031
+        },
+        {
+          "level": "must-have",
+          "text": "function validateAPIKeyScopes(key, requiredScopes) {",
+          "section": "5. Token-Based Authentication Architecture",
+          "lineNumber": 2227
+        },
+        {
+          "level": "must-have",
+          "text": "return requiredScopes.every(scope => key.scopes.includes(scope));",
+          "section": "5. Token-Based Authentication Architecture",
+          "lineNumber": 2228
+        },
+        {
+          "level": "must-have",
+          "text": "function requireAPIKeyScope(...requiredScopes) {",
+          "section": "5. Token-Based Authentication Architecture",
+          "lineNumber": 2232
+        },
+        {
+          "level": "must-have",
+          "text": "return res.status(401).json({ error: 'API key required' });",
+          "section": "5. Token-Based Authentication Architecture",
+          "lineNumber": 2235
+        },
+        {
+          "level": "must-have",
+          "text": "if (!validateAPIKeyScopes(req.apiKey, requiredScopes)) {",
+          "section": "5. Token-Based Authentication Architecture",
+          "lineNumber": 2238
+        },
+        {
+          "level": "should-have",
+          "text": "async function shouldRequireCaptcha(email, ip) {",
+          "section": "6. Login Security Features",
+          "lineNumber": 2480
+        },
+        {
+          "level": "must-have",
+          "text": "// Check if CAPTCHA required",
+          "section": "6. Login Security Features",
+          "lineNumber": 2501
+        },
+        {
+          "level": "should-have",
+          "text": "const requireCaptcha = await shouldRequireCaptcha(email, ip);",
+          "section": "6. Login Security Features",
+          "lineNumber": 2502
+        },
+        {
+          "level": "must-have",
+          "text": "error: 'CAPTCHA required',",
+          "section": "6. Login Security Features",
+          "lineNumber": 2507
+        }
+      ],
+      "domains": [
+        "authentication",
+        "authorization",
+        "database",
+        "api",
+        "frontend",
+        "deployment",
+        "security",
+        "performance",
+        "monitoring"
+      ],
+      "keywords": [
+        "login",
+        "jwt",
+        "token",
+        "oauth",
+        "sso",
+        "mfa",
+        "session",
+        "permission",
+        "role",
+        "acl",
+        "policy",
+        "schema",
+        "table",
+        "index",
+        "query",
+        "migration",
+        "orm",
+        "sql",
+        "endpoint",
+        "rest"
+      ],
+      "size": 67841,
+      "lastModified": "2025-11-01T16:49:25.052Z"
+    },
+    "frontend-architecture.md": {
+      "workstream": "Frontend",
+      "file": "frontend-architecture.md",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Frontend/frontend-architecture.md",
+      "title": "Frontend Architecture - User Registration & Authentication",
+      "sections": [
+        {
+          "title": "1. Architecture Overview",
+          "position": 224
+        },
+        {
+          "title": "2. Component Architecture",
+          "position": 2207
+        },
+        {
+          "title": "3. State Management",
+          "position": 5130
+        },
+        {
+          "title": "4. Routing & Navigation",
+          "position": 6803
+        },
+        {
+          "title": "5. Form Management & Validation",
+          "position": 7903
+        },
+        {
+          "title": "6. Security Implementation",
+          "position": 9561
+        },
+        {
+          "title": "7. API Integration",
+          "position": 12834
+        },
+        {
+          "title": "8. Performance Optimization",
+          "position": 15863
+        },
+        {
+          "title": "9. Testing Strategy",
+          "position": 17735
+        },
+        {
+          "title": "10. Accessibility (WCAG 2.1 AA)",
+          "position": 21422
+        },
+        {
+          "title": "11. Internationalization (i18n)",
+          "position": 23013
+        },
+        {
+          "title": "12. Error Handling & User Feedback",
+          "position": 24547
+        },
+        {
+          "title": "13. Mobile Responsiveness",
+          "position": 26609
+        },
+        {
+          "title": "14. Monitoring & Analytics",
+          "position": 28241
+        },
+        {
+          "title": "15. Build & Deployment",
+          "position": 30067
+        },
+        {
+          "title": "16. Future Enhancements",
+          "position": 32507
+        },
+        {
+          "title": "17. Documentation & Resources",
+          "position": 33234
+        }
+      ],
+      "sectionCount": 17,
+      "priorities": [
+        {
+          "level": "must-have",
+          "text": "// 3. GDPR Consents (required + optional)",
+          "section": "2. Component Architecture",
+          "lineNumber": 126
+        },
+        {
+          "level": "nice-to-have",
+          "text": "// 3. GDPR Consents (required + optional)",
+          "section": "2. Component Architecture",
+          "lineNumber": 126
+        },
+        {
+          "level": "must-have",
+          "text": "onTwoFactorRequired?: (sessionId: string) => void;",
+          "section": "2. Component Architecture",
+          "lineNumber": 134
+        },
+        {
+          "level": "must-have",
+          "text": ".min(12, 'Password must be at least 12 characters')",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 322
+        },
+        {
+          "level": "must-have",
+          "text": ".regex(/[A-Z]/, 'Must contain uppercase letter')",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 323
+        },
+        {
+          "level": "must-have",
+          "text": ".regex(/[a-z]/, 'Must contain lowercase letter')",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 324
+        },
+        {
+          "level": "must-have",
+          "text": ".regex(/[0-9]/, 'Must contain number')",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 325
+        },
+        {
+          "level": "must-have",
+          "text": ".regex(/[^A-Za-z0-9]/, 'Must contain special character'),",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 326
+        },
+        {
+          "level": "must-have",
+          "text": ".min(1, 'First name required')",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 329
+        },
+        {
+          "level": "must-have",
+          "text": ".min(1, 'Last name required')",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 332
+        },
+        {
+          "level": "must-have",
+          "text": ".refine(val => val === true, 'GDPR consent required'),",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 335
+        },
+        {
+          "level": "must-have",
+          "text": ".refine(val => val === true, 'Must accept terms')",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 338
+        },
+        {
+          "level": "must-have",
+          "text": "message: 'Passwords must match',",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 340
+        },
+        {
+          "level": "must-have",
+          "text": "password: z.string().min(1, 'Password required'),",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 349
+        },
+        {
+          "level": "nice-to-have",
+          "text": "rememberMe: z.boolean().optional()",
+          "section": "5. Form Management & Validation",
+          "lineNumber": 350
+        },
+        {
+          "level": "nice-to-have",
+          "text": "- **Service Worker**: Static assets caching (future)",
+          "section": "8. Performance Optimization",
+          "lineNumber": 651
+        },
+        {
+          "level": "must-have",
+          "text": "- **E2E Tests**: 10% coverage - Critical user journeys",
+          "section": "9. Testing Strategy",
+          "lineNumber": 698
+        },
+        {
+          "level": "should-have",
+          "text": "it('should validate email format', async () => {",
+          "section": "9. Testing Strategy",
+          "lineNumber": 704
+        },
+        {
+          "level": "should-have",
+          "text": "it('should call onSuccess when login succeeds', async () => {",
+          "section": "9. Testing Strategy",
+          "lineNumber": 716
+        },
+        {
+          "level": "should-have",
+          "text": "it('should return authenticated user', () => {",
+          "section": "9. Testing Strategy",
+          "lineNumber": 730
+        },
+        {
+          "level": "should-have",
+          "text": "it('should complete full registration', async () => {",
+          "section": "9. Testing Strategy",
+          "lineNumber": 750
+        },
+        {
+          "level": "must-have",
+          "text": "<span className=\"sr-only\">(required)</span>",
+          "section": "10. Accessibility (WCAG 2.1 AA)",
+          "lineNumber": 819
+        },
+        {
+          "level": "must-have",
+          "text": "aria-required=\"true\"",
+          "section": "10. Accessibility (WCAG 2.1 AA)",
+          "lineNumber": 824
+        },
+        {
+          "level": "must-have",
+          "text": "- **Required Fields**: aria-required=\"true\"",
+          "section": "10. Accessibility (WCAG 2.1 AA)",
+          "lineNumber": 859
+        },
+        {
+          "level": "nice-to-have",
+          "text": "### 13.4 PWA Considerations",
+          "section": "13. Mobile Responsiveness",
+          "lineNumber": 1100
+        },
+        {
+          "level": "nice-to-have",
+          "text": "## 16. Future Enhancements",
+          "section": "16. Future Enhancements",
+          "lineNumber": 1324
+        }
+      ],
+      "domains": [
+        "authentication",
+        "authorization",
+        "database",
+        "api",
+        "frontend",
+        "deployment",
+        "testing",
+        "security",
+        "performance",
+        "monitoring"
+      ],
+      "keywords": [
+        "login",
+        "signup",
+        "token",
+        "oauth",
+        "2fa",
+        "session",
+        "role",
+        "policy",
+        "schema",
+        "table",
+        "index",
+        "query",
+        "orm",
+        "endpoint",
+        "rest",
+        "route",
+        "request",
+        "response",
+        "component",
+        "ui"
+      ],
+      "size": 34008,
+      "lastModified": "2025-10-29T23:50:34.303Z"
+    },
+    "caching-strategy.md": {
+      "workstream": "Database",
+      "file": "caching-strategy.md",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Database/caching-strategy.md",
+      "title": "CACHING STRATEGY",
+      "sections": [
+        {
+          "title": "Executive Summary",
+          "position": 152
+        },
+        {
+          "title": "Caching Layers",
+          "position": 1359
+        },
+        {
+          "title": "Cache Technologies",
+          "position": 3573
+        },
+        {
+          "title": "Cache Patterns",
+          "position": 5546
+        },
+        {
+          "title": "Cache Keys Design",
+          "position": 10221
+        },
+        {
+          "title": "Invalidation Strategies",
+          "position": 13698
+        },
+        {
+          "title": "Cache Warming",
+          "position": 20419
+        },
+        {
+          "title": "Cache Monitoring",
+          "position": 23550
+        },
+        {
+          "title": "Best Practices",
+          "position": 27765
+        },
+        {
+          "title": "Appendix",
+          "position": 30610
+        }
+      ],
+      "sectionCount": 10,
+      "priorities": [
+        {
+          "level": "must-have",
+          "text": "- **Notes**: Must be invalidated on security events (password change, logout, permissions update)",
+          "section": "Caching Layers",
+          "lineNumber": 30
+        },
+        {
+          "level": "must-have",
+          "text": "- **Persistence**: RDB snapshots every 5 minutes + AOF for critical data",
+          "section": "Caching Layers",
+          "lineNumber": 49
+        },
+        {
+          "level": "nice-to-have",
+          "text": "Qualifier: Optional sub-resource or attribute",
+          "section": "Cache Keys Design",
+          "lineNumber": 311
+        },
+        {
+          "level": "must-have",
+          "text": "Time-based expiration provides automatic cleanup without manual intervention. Critical for security-sensitive data.",
+          "section": "Invalidation Strategies",
+          "lineNumber": 426
+        },
+        {
+          "level": "must-have",
+          "text": "// Warm critical caches on application startup",
+          "section": "Cache Warming",
+          "lineNumber": 628
+        },
+        {
+          "level": "must-have",
+          "text": "Severity: \"critical\",",
+          "section": "Cache Monitoring",
+          "lineNumber": 892
+        },
+        {
+          "level": "should-have",
+          "text": "## Best Practices",
+          "section": "Best Practices",
+          "lineNumber": 903
+        },
+        {
+          "level": "must-have",
+          "text": "✅ **Invalidate on security-critical updates**",
+          "section": "Best Practices",
+          "lineNumber": 922
+        },
+        {
+          "level": "must-have",
+          "text": "// Good: Warm critical data on startup",
+          "section": "Best Practices",
+          "lineNumber": 1006
+        }
+      ],
+      "domains": [
+        "authentication",
+        "authorization",
+        "database",
+        "api",
+        "frontend",
+        "deployment",
+        "security",
+        "performance",
+        "monitoring"
+      ],
+      "keywords": [
+        "login",
+        "jwt",
+        "token",
+        "oauth",
+        "sso",
+        "session",
+        "permission",
+        "role",
+        "policy",
+        "table",
+        "query",
+        "orm",
+        "endpoint",
+        "rest",
+        "request",
+        "response",
+        "component",
+        "ui",
+        "page",
+        "state"
+      ],
+      "size": 34589,
+      "lastModified": "2025-10-29T23:48:58.670Z"
+    }
+  },
+  "priorities": {
+    "must-have": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "- Least privilege: Grant minimum required permissions",
+        "section": "1. Authentication Architecture Overview"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "- Email verification required before account activation",
+        "section": "2. Authentication Methods Design"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push(`Password must be at least ${passwordPolicy.minLength} characters`);",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push(`Password must not exceed ${passwordPolicy.maxLength} characters`);",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push('Password must contain at least one uppercase letter');",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push('Password must contain at least one lowercase letter');",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push('Password must contain at least one number');",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push('Password must contain at least one special character');",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push('Password must not contain your username');",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push('Password must not contain your email');",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "errors.push(`Password must not match any of your last ${passwordPolicy.preventPasswordReuse} passwords`);",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "function validateAPIKeyScopes(key, requiredScopes) {",
+        "section": "5. Token-Based Authentication Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "return requiredScopes.every(scope => key.scopes.includes(scope));",
+        "section": "5. Token-Based Authentication Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "function requireAPIKeyScope(...requiredScopes) {",
+        "section": "5. Token-Based Authentication Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "return res.status(401).json({ error: 'API key required' });",
+        "section": "5. Token-Based Authentication Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "if (!validateAPIKeyScopes(req.apiKey, requiredScopes)) {",
+        "section": "5. Token-Based Authentication Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "// Check if CAPTCHA required",
+        "section": "6. Login Security Features"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "error: 'CAPTCHA required',",
+        "section": "6. Login Security Features"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "// 3. GDPR Consents (required + optional)",
+        "section": "2. Component Architecture"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "onTwoFactorRequired?: (sessionId: string) => void;",
+        "section": "2. Component Architecture"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".min(12, 'Password must be at least 12 characters')",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".regex(/[A-Z]/, 'Must contain uppercase letter')",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".regex(/[a-z]/, 'Must contain lowercase letter')",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".regex(/[0-9]/, 'Must contain number')",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".regex(/[^A-Za-z0-9]/, 'Must contain special character'),",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".min(1, 'First name required')",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".min(1, 'Last name required')",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".refine(val => val === true, 'GDPR consent required'),",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": ".refine(val => val === true, 'Must accept terms')",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "message: 'Passwords must match',",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "password: z.string().min(1, 'Password required'),",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "- **E2E Tests**: 10% coverage - Critical user journeys",
+        "section": "9. Testing Strategy"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "<span className=\"sr-only\">(required)</span>",
+        "section": "10. Accessibility (WCAG 2.1 AA)"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "aria-required=\"true\"",
+        "section": "10. Accessibility (WCAG 2.1 AA)"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "- **Required Fields**: aria-required=\"true\"",
+        "section": "10. Accessibility (WCAG 2.1 AA)"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "- **Notes**: Must be invalidated on security events (password change, logout, permissions update)",
+        "section": "Caching Layers"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "- **Persistence**: RDB snapshots every 5 minutes + AOF for critical data",
+        "section": "Caching Layers"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "Time-based expiration provides automatic cleanup without manual intervention. Critical for security-sensitive data.",
+        "section": "Invalidation Strategies"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "// Warm critical caches on application startup",
+        "section": "Cache Warming"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "Severity: \"critical\",",
+        "section": "Cache Monitoring"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "✅ **Invalidate on security-critical updates**",
+        "section": "Best Practices"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "// Good: Warm critical data on startup",
+        "section": "Best Practices"
+      }
+    ],
+    "should-have": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "userVerification: \"preferred\"",
+        "section": "2. Authentication Methods Design"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "userVerification: \"preferred\"",
+        "section": "2. Authentication Methods Design"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "**Argon2id Implementation (Recommended):**",
+        "section": "3. Password Security Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "async function shouldRequireCaptcha(email, ip) {",
+        "section": "6. Login Security Features"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "const requireCaptcha = await shouldRequireCaptcha(email, ip);",
+        "section": "6. Login Security Features"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "it('should validate email format', async () => {",
+        "section": "9. Testing Strategy"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "it('should call onSuccess when login succeeds', async () => {",
+        "section": "9. Testing Strategy"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "it('should return authenticated user', () => {",
+        "section": "9. Testing Strategy"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "it('should complete full registration', async () => {",
+        "section": "9. Testing Strategy"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "## Best Practices",
+        "section": "Best Practices"
+      }
+    ],
+    "nice-to-have": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "**Privacy Considerations:**",
+        "section": "2. Authentication Methods Design"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "// Fingerprint mismatch - potential session hijacking",
+        "section": "4. Session Management Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "// Optional: Invalidate session",
+        "section": "4. Session Management Architecture"
+      },
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md",
+        "requirement": "// Potential security breach - revoke entire token chain",
+        "section": "5. Token-Based Authentication Architecture"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "// 3. GDPR Consents (required + optional)",
+        "section": "2. Component Architecture"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "rememberMe: z.boolean().optional()",
+        "section": "5. Form Management & Validation"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "- **Service Worker**: Static assets caching (future)",
+        "section": "8. Performance Optimization"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "### 13.4 PWA Considerations",
+        "section": "13. Mobile Responsiveness"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md",
+        "requirement": "## 16. Future Enhancements",
+        "section": "16. Future Enhancements"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md",
+        "requirement": "Qualifier: Optional sub-resource or attribute",
+        "section": "Cache Keys Design"
+      }
+    ]
+  },
+  "domains": {
+    "authentication": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "authorization": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "database": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "api": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "frontend": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "deployment": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "security": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "performance": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "monitoring": [
+      {
+        "workstream": "Security",
+        "document": "authentication-design.md"
+      },
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      },
+      {
+        "workstream": "Database",
+        "document": "caching-strategy.md"
+      }
+    ],
+    "testing": [
+      {
+        "workstream": "Frontend",
+        "document": "frontend-architecture.md"
+      }
+    ]
+  },
+  "searchIndex": {
+    "authentication-design-architecture": {
+      "workstream": "Security",
+      "file": "authentication-design.md",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authentication-design.md"
+    },
+    "frontend-architecture---user-registration---authentication": {
+      "workstream": "Frontend",
+      "file": "frontend-architecture.md",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Frontend/frontend-architecture.md"
+    },
+    "caching-strategy": {
+      "workstream": "Database",
+      "file": "caching-strategy.md",
+      "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Database/caching-strategy.md"
+    }
+  }
+}

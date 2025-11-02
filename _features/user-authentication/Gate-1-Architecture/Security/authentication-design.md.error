@@ -1,0 +1,11 @@
+# Error generating Authentication Design
+
+Timestamp: 2025-11-02T09:19:50.215Z
+
+Error: Prompt exceeds maximum context length
+
+Stack: Error: Prompt exceeds maximum context length
+    at /app/enrichment-api.js:7331:43
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 0)
+    at async /app/enrichment-api.js:7362:37

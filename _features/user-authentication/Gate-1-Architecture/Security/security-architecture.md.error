@@ -1,0 +1,13 @@
+# Error generating Security Architecture
+
+Timestamp: 2025-11-02T09:26:00.542Z
+
+Error: Command failed: claude --print --output-format text < "C:\Users\ricma\AppData\Local\Temp\claude-skill-1762074659696-es8rhbt9qud.txt"
+
+
+Stack: Error: Command failed: claude --print --output-format text < "C:\Users\ricma\AppData\Local\Temp\claude-skill-1762074659696-es8rhbt9qud.txt"
+
+    at /app/enrichment-api.js:7331:43
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Promise.all (index 3)
+    at async /app/enrichment-api.js:7362:37

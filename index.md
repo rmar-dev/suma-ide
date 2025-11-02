@@ -49,6 +49,12 @@ SUMA IDE is an intelligent development environment that brings automated softwar
 - [Gate Documentation](/requirements/gates) - Gate-specific guides
 - [Templates](/requirements/templates) - Starter templates
 
+### ⭐ Features & Examples
+{: .text-orange-200 }
+
+- [Live Examples](/features/) - Real gate system outputs
+- [User Authentication](/features/user-authentication) - Complete auth feature with all gates
+
 ### 🔌 API Reference
 {: .text-yellow-200 }
 

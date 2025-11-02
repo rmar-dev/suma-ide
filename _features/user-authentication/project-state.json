@@ -1,0 +1,183 @@
+{
+  "projectName": "",
+  "featureName": " user registration   authentication",
+  "createdAt": "2025-10-29T23:40:03.741Z",
+  "lastUpdated": "2025-11-01T22:34:22.678Z",
+  "currentPhase": "architecture-complete",
+  "gates": {
+    "preGate0": {
+      "id": "preGate0",
+      "name": "Gate preGate0",
+      "status": "completed",
+      "completed": true,
+      "completedAt": "2025-10-29T23:40:03.736Z",
+      "validationScore": 96,
+      "confidence": 96,
+      "nextSteps": [
+        "Pre-Gate 0 validated successfully",
+        "Validation score: 96%",
+        "Ready to proceed to Gate 0"
+      ]
+    },
+    "architectureGate": {
+      "id": "architectureGate",
+      "name": "Architecture Gate",
+      "status": "incomplete",
+      "completed": false,
+      "completedAt": "2025-11-01T22:34:22.677Z",
+      "documentsGenerated": 26,
+      "totalDocuments": 28,
+      "failedDocuments": 2,
+      "missingDocuments": [
+        {
+          "filename": "authorization-design.md",
+          "folder": "Security",
+          "path": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Security/authorization-design.md",
+          "skill": "arch-authorization-design-generator",
+          "label": "Authorization Design"
+        }
+      ],
+      "missingCount": 1,
+      "successRate": 93,
+      "outputDirectory": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture",
+      "dependencies": {
+        "requires": [
+          "preGate0"
+        ],
+        "enables": [
+          "architectureIndexing",
+          "gate0Filter"
+        ]
+      },
+      "nextSteps": [
+        "Regenerate 1 missing documents",
+        "Architecture indexing pending completion",
+        "Gate 0 Filter will define implementation scope"
+      ]
+    },
+    "architectureIndexing": {
+      "id": "architectureIndexing",
+      "name": "Architecture Indexing",
+      "status": "completed",
+      "completed": true,
+      "completedAt": "2025-11-01T22:34:22.801Z",
+      "totalDocuments": 3,
+      "totalWorkstreams": 3,
+      "totalSections": 33,
+      "mustHaveCount": 42,
+      "shouldHaveCount": 10,
+      "niceToHaveCount": 10,
+      "dependencies": {
+        "requires": [
+          "architectureGate"
+        ],
+        "enables": [
+          "gate0Filter",
+          "featureSkills"
+        ]
+      },
+      "nextSteps": [
+        "Gate 0 Filter will define implementation scope",
+        "Feature-specific skills will be generated",
+        "Gate 1 roadmap will be created"
+      ]
+    },
+    "gate0Filter": {
+      "id": "gate0Filter",
+      "name": "Gate 0 Filter",
+      "status": "completed",
+      "completed": true,
+      "completedAt": "2025-11-01T22:34:23.036Z",
+      "workstreamsFiltered": 5,
+      "workstreams": [
+        "Security",
+        "Frontend",
+        "Backend-API",
+        "Database",
+        "Infrastructure"
+      ],
+      "implementationFiles": [
+        "implementation-requirements-security.md",
+        "implementation-requirements-frontend.md",
+        "implementation-requirements-backend-api.md",
+        "implementation-requirements-database.md",
+        "implementation-requirements-infrastructure.md"
+      ],
+      "outputDirectory": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture",
+      "dependencies": {
+        "requires": [
+          "architectureGate",
+          "architectureIndexing"
+        ],
+        "enables": [
+          "featureSkills",
+          "gate1"
+        ]
+      },
+      "nextSteps": [
+        "Feature-specific Claude skills will be generated",
+        "Gate 1 roadmap and planning will begin",
+        "Implementation scope is now defined"
+      ]
+    },
+    "featureSkills": {
+      "id": "featureSkills",
+      "name": "Feature-Specific Skills",
+      "status": "completed",
+      "completed": true,
+      "completedAt": "2025-11-01T22:34:23.057Z",
+      "skillsGenerated": 0,
+      "workstreams": [],
+      "skillsDirectory": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/temp-skills",
+      "manifestPath": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/temp-skills/skill-manifest.json",
+      "dependencies": {
+        "requires": [
+          "gate0Filter",
+          "architectureIndexing"
+        ],
+        "enables": [
+          "gate1",
+          "gate1.5"
+        ]
+      },
+      "nextSteps": [
+        "Gate 1 roadmap will use these specialized skills",
+        "Skills combine permanent patterns with feature-specific requirements",
+        "Skills will be archived after use"
+      ]
+    },
+    "gate1": {
+      "id": "gate1",
+      "name": "Gate 1 Roadmap & Planning",
+      "status": "completed",
+      "completed": true,
+      "completedAt": "2025-11-01T22:34:23.081Z",
+      "roadmapsGenerated": 0,
+      "workstreams": [],
+      "outputPath": "/workspace/requirements/-user-registration---authentication_2025-10-29_23-30-59/Architecture/Gate-1-Roadmap",
+      "documents": [],
+      "dependencies": {
+        "requires": [
+          "gate0Filter",
+          "featureSkills"
+        ],
+        "enables": [
+          "gate1.5",
+          "gate2"
+        ]
+      },
+      "nextSteps": [
+        "Gate 1.5 will refine technical specifications",
+        "Implementation can begin based on roadmap phases",
+        "User stories are ready for sprint planning"
+      ]
+    }
+  },
+  "overallProgress": {
+    "completedGates": 5,
+    "totalGates": 8,
+    "percentComplete": 63
+  },
+  "recommendations": [],
+  "issues": []
+}
