@@ -1,8 +1,3 @@
----
-layout: default
-title: Infrastructure As Code
-nav_exclude: true
----
 
 
 

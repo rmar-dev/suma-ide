@@ -1,8 +1,3 @@
----
-layout: default
-title: GATE1 SUMMARY
-nav_exclude: true
----
 
 
 # Gate 1: Architecture Summary

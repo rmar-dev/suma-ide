@@ -1,8 +1,3 @@
----
-layout: default
-title: Database Implementation Requirements
-nav_exclude: true
----
 
 
 

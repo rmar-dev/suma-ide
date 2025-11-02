@@ -1,8 +1,3 @@
----
-layout: default
-title: Service Communication
-nav_exclude: true
----
 
 
 # SERVICE COMMUNICATION DESIGN

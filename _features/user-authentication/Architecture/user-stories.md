@@ -1,8 +1,3 @@
----
-layout: default
-title: User Stories
-nav_exclude: true
----
 
 
 # User Stories

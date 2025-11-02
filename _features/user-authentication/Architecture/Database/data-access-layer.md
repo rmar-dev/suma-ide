@@ -1,8 +1,3 @@
----
-layout: default
-title: Data Access Layer
-nav_exclude: true
----
 
 
 

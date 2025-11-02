@@ -1,8 +1,3 @@
----
-layout: default
-title: Mobile Navigation
-nav_exclude: true
----
 
 
 Claude configuration file at C:\Users\ricma\.claude.json is corrupted: Unexpected end of JSON input

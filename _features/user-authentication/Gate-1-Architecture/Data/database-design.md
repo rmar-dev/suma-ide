@@ -1,8 +1,3 @@
----
-layout: default
-title: Database Design
-nav_exclude: true
----
 
 
 # Gate 1: Database Design Architecture

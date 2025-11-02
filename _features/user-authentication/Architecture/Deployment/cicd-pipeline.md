@@ -1,8 +1,3 @@
----
-layout: default
-title: Cicd Pipeline
-nav_exclude: true
----
 
 
 

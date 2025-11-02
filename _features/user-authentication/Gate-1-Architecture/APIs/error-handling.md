@@ -1,8 +1,3 @@
----
-layout: default
-title: Error Handling
-nav_exclude: true
----
 
 
 # Error Handling Architecture - SUMA Finance

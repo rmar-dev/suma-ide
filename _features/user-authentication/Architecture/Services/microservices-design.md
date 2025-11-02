@@ -1,8 +1,3 @@
----
-layout: default
-title: Microservices Design
-nav_exclude: true
----
 
 
 # MICROSERVICES DESIGN

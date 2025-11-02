@@ -1,8 +1,3 @@
----
-layout: default
-title: Risk Assessment
-nav_exclude: true
----
 
 
 # Gate 1.5: Risk Assessment for SUMA Finance - User Registration & Authentication

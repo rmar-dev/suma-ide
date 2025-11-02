@@ -1,8 +1,3 @@
----
-layout: default
-title: Migrations
-nav_exclude: true
----
 
 
 Claude configuration file at C:\Users\ricma\.claude.json is corrupted: Unterminated string in JSON at position 8192 (line 44 column 7063)

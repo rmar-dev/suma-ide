@@ -1,8 +1,3 @@
----
-layout: default
-title: Security Implementation Requirements
-nav_exclude: true
----
 
 
 

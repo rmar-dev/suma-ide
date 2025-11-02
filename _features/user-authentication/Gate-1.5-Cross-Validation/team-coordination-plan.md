@@ -1,8 +1,3 @@
----
-layout: default
-title: Team Coordination Plan
-nav_exclude: true
----
 
 
 {

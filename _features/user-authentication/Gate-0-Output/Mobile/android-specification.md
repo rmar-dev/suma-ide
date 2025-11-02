@@ -1,8 +1,3 @@
----
-layout: default
-title: Android Specification
-nav_exclude: true
----
 
 
 # Android Mobile Specification - SUMA Finance

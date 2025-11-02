@@ -1,8 +1,3 @@
----
-layout: default
-title: Acceptance Criteria
-nav_exclude: true
----
 
 
 

@@ -1,8 +1,3 @@
----
-layout: default
-title: Threat Model
-nav_exclude: true
----
 
 
 # Security Threat Model - SUMA Finance User Registration & Authentication

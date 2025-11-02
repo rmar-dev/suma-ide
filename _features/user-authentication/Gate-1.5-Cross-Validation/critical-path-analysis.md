@@ -1,8 +1,3 @@
----
-layout: default
-title: Critical Path Analysis
-nav_exclude: true
----
 
 
 # Gate 1.5: Critical Path Analysis

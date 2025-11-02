@@ -1,8 +1,3 @@
----
-layout: default
-title: 03 Database Specification
-nav_exclude: true
----
 
 
 # Database Specification: Secure Authentication System

@@ -1,8 +1,3 @@
----
-layout: default
-title: Monitoring Logging
-nav_exclude: true
----
 
 
 # Monitoring and Logging

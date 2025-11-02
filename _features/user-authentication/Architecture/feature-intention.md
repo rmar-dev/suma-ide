@@ -1,8 +1,3 @@
----
-layout: default
-title: Feature Intention
-nav_exclude: true
----
 
 
 

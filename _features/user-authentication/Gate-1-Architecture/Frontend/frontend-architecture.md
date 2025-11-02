@@ -1,8 +1,3 @@
----
-layout: default
-title: Frontend Architecture
-nav_exclude: true
----
 
 
 # Frontend Architecture

@@ -1,8 +1,3 @@
----
-layout: default
-title: GATE0 SUMMARY
-nav_exclude: true
----
 
 
 # Gate 0 Requirements Summary: SUMA Finance - User Registration & Authentication

@@ -1,8 +1,3 @@
----
-layout: default
-title: ARCHITECTURE README
-nav_exclude: true
----
 
 
 #  user registration   authentication - Gate 1 Architecture Design

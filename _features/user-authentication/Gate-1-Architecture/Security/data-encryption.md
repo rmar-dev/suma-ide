@@ -1,8 +1,3 @@
----
-layout: default
-title: Data Encryption
-nav_exclude: true
----
 
 
 # Data Encryption Architecture - SUMA Finance

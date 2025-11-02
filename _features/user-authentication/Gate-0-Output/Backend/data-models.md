@@ -1,8 +1,3 @@
----
-layout: default
-title: Data Models
-nav_exclude: true
----
 
 
 # Backend Data Models - SUMA Finance

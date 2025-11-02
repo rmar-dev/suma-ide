@@ -1,8 +1,3 @@
----
-layout: default
-title: 02 Enriched Requirements
-nav_exclude: true
----
 
 
 {

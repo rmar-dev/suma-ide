@@ -1,8 +1,3 @@
----
-layout: default
-title: 00 Original Requirements
-nav_exclude: true
----
 
 
 - Email/password registration with validation

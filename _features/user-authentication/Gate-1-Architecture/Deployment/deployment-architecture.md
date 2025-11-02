@@ -1,8 +1,3 @@
----
-layout: default
-title: Deployment Architecture
-nav_exclude: true
----
 
 
 # Deployment Architecture

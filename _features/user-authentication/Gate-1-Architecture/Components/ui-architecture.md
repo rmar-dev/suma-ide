@@ -1,8 +1,3 @@
----
-layout: default
-title: Ui Architecture
-nav_exclude: true
----
 
 
 # Gate 1: UI Architecture - SUMA Finance

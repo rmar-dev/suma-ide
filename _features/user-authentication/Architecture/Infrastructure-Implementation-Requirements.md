@@ -1,8 +1,3 @@
----
-layout: default
-title: Infrastructure Implementation Requirements
-nav_exclude: true
----
 
 
 

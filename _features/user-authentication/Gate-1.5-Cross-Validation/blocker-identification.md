@@ -1,8 +1,3 @@
----
-layout: default
-title: Blocker Identification
-nav_exclude: true
----
 
 
 # Blocker Identification

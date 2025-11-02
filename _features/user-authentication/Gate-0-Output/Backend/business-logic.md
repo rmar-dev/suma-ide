@@ -1,8 +1,3 @@
----
-layout: default
-title: Business Logic
-nav_exclude: true
----
 
 
 # Backend Business Logic - User Registration & Authentication

@@ -1,8 +1,3 @@
----
-layout: default
-title: Architecture Overview
-nav_exclude: true
----
 
 
 # Architecture Overview - SUMA Finance User Registration & Authentication

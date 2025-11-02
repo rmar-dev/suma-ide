@@ -1,8 +1,3 @@
----
-layout: default
-title: 04 Mobile Specification
-nav_exclude: true
----
 
 
 # Mobile Specification - Fintech Authentication System

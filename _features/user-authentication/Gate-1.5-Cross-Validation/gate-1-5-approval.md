@@ -1,8 +1,3 @@
----
-layout: default
-title: Gate 1 5 Approval
-nav_exclude: true
----
 
 
 # Gate 1.5: Approval Decision Generator

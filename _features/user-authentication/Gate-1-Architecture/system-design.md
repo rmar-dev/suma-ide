@@ -1,8 +1,3 @@
----
-layout: default
-title: System Design
-nav_exclude: true
----
 
 
 # System Design - User Registration & Authentication

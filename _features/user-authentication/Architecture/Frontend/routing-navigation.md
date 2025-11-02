@@ -1,8 +1,3 @@
----
-layout: default
-title: Routing Navigation
-nav_exclude: true
----
 
 
 

@@ -1,8 +1,3 @@
----
-layout: default
-title: State Management
-nav_exclude: true
----
 
 
 # Gate 1: State Management Architecture

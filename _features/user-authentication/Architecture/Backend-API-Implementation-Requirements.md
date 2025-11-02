@@ -1,8 +1,3 @@
----
-layout: default
-title: Backend API Implementation Requirements
-nav_exclude: true
----
 
 
 

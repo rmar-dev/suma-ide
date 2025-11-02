@@ -1,8 +1,3 @@
----
-layout: default
-title: Service Architecture
-nav_exclude: true
----
 
 
 # SERVICE ARCHITECTURE

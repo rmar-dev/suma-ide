@@ -1,8 +1,3 @@
----
-layout: default
-title: 02 Frontend Specification
-nav_exclude: true
----
 
 
 # Frontend Specification: Authentication System

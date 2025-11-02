@@ -1,8 +1,3 @@
----
-layout: default
-title: 01 Backend Specification
-nav_exclude: true
----
 
 
 # Backend API Specification - Authentication System

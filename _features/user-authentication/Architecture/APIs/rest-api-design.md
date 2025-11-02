@@ -1,8 +1,3 @@
----
-layout: default
-title: Rest Api Design
-nav_exclude: true
----
 
 
 

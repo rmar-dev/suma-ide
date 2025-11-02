@@ -1,8 +1,3 @@
----
-layout: default
-title: Compliance Checklist
-nav_exclude: true
----
 
 
 # Security Compliance Checklist - Gate 0

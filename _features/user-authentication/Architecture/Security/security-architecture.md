@@ -1,8 +1,3 @@
----
-layout: default
-title: Security Architecture
-nav_exclude: true
----
 
 
 

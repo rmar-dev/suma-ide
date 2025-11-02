@@ -1,8 +1,3 @@
----
-layout: default
-title: Api Gateway
-nav_exclude: true
----
 
 
 {

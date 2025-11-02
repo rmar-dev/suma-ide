@@ -1,8 +1,3 @@
----
-layout: default
-title: Api Versioning
-nav_exclude: true
----
 
 
 

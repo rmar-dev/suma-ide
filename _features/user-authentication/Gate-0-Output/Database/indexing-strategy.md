@@ -1,8 +1,3 @@
----
-layout: default
-title: Indexing Strategy
-nav_exclude: true
----
 
 
 # Database Indexing Strategy - SUMA Finance: User Registration & Authentication

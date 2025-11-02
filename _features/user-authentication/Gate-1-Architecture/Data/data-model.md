@@ -1,8 +1,3 @@
----
-layout: default
-title: Data Model
-nav_exclude: true
----
 
 
 # Gate 1: Data Model Architecture - SUMA Finance User Registration & Authentication

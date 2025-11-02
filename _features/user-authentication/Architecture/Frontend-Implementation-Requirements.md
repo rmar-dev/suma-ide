@@ -1,8 +1,3 @@
----
-layout: default
-title: Frontend Implementation Requirements
-nav_exclude: true
----
 
 
 

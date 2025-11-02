@@ -1,8 +1,3 @@
----
-layout: default
-title: Graphql Schema
-nav_exclude: true
----
 
 
 # GraphQL Schema

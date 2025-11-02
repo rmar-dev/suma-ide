@@ -1,8 +1,3 @@
----
-layout: default
-title: Authentication Design
-nav_exclude: true
----
 
 
 {

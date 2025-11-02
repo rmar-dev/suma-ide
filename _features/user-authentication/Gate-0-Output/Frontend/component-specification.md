@@ -1,8 +1,3 @@
----
-layout: default
-title: Component Specification
-nav_exclude: true
----
 
 
 # Frontend Component Specification - SUMA Finance User Registration & Authentication

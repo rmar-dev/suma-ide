@@ -1,8 +1,3 @@
----
-layout: default
-title: Api Specification
-nav_exclude: true
----
 
 
 # Backend API Specification - User Registration & Authentication

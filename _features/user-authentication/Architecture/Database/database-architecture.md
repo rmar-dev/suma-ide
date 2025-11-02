@@ -1,8 +1,3 @@
----
-layout: default
-title: Database Architecture
-nav_exclude: true
----
 
 
 

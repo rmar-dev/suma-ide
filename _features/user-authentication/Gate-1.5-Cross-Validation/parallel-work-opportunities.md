@@ -1,8 +1,3 @@
----
-layout: default
-title: Parallel Work Opportunities
-nav_exclude: true
----
 
 
 # Gate 1.5: Parallel Work Opportunities Analysis

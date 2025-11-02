@@ -1,8 +1,3 @@
----
-layout: default
-title: Api Gateway Design
-nav_exclude: true
----
 
 
 # Gate 1: API Gateway Design Architecture

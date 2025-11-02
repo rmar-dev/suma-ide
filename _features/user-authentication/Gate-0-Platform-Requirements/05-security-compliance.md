@@ -1,8 +1,3 @@
----
-layout: default
-title: 05 Security Compliance
-nav_exclude: true
----
 
 
 # Security & Compliance Specification

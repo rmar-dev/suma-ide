@@ -1,8 +1,3 @@
----
-layout: default
-title: Component Architecture
-nav_exclude: true
----
 
 
 

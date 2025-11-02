@@ -1,8 +1,3 @@
----
-layout: default
-title: Caching Strategy
-nav_exclude: true
----
 
 
 
