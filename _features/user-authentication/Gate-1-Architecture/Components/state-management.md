@@ -1,10 +1,9 @@
 ---
 layout: default
 title: State Management
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Gate 1: State Management Architecture
 

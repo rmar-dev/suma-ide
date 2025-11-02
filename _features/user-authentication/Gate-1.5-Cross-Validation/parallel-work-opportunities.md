@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Parallel Work Opportunities
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Gate 1.5: Parallel Work Opportunities Analysis
 

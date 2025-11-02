@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Database Design
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Gate 1: Database Design Architecture
 

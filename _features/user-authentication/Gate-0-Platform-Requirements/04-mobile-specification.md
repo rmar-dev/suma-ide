@@ -1,10 +1,9 @@
 ---
 layout: default
 title: 04 Mobile Specification
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Mobile Specification - Fintech Authentication System
 

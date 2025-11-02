@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Threat Model
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Security Threat Model - SUMA Finance User Registration & Authentication
 

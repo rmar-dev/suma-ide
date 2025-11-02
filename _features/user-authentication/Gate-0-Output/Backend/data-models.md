@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Data Models
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Backend Data Models - SUMA Finance
 

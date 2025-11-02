@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Architecture Overview
-parent: User Authentication
-grand_parent: Features
+title: ARCHITECTURE README
 nav_exclude: true
 ---
+
+
 
 # Architecture Overview - User Authentication
 

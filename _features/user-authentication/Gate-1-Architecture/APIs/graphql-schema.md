@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Graphql Schema
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # GraphQL Schema
 

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Database Architecture
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
+
 
 # DATABASE ARCHITECTURE
 

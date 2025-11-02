@@ -1,10 +1,9 @@
 ---
 layout: default
 title: 01 Backend Specification
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Backend API Specification - Authentication System
 

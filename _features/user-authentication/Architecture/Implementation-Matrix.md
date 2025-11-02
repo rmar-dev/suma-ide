@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Implementation Matrix
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
+
 
 # Implementation Matrix
 

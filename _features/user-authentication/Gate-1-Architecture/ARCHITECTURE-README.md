@@ -1,10 +1,9 @@
 ---
 layout: default
 title: ARCHITECTURE README
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 #  user registration   authentication - Gate 1 Architecture Design
 

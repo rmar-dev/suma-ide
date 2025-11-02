@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Android Specification
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Android Mobile Specification - SUMA Finance
 

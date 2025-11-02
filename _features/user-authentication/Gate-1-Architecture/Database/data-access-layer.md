@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Data Access Layer
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Data Access Layer
 

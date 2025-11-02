@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Ui Architecture
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Gate 1: UI Architecture - SUMA Finance
 

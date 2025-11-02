@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Authentication Design
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
+
 
 # Authentication Design Architecture
 

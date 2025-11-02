@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Infrastructure As Code
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Infrastructure as Code
 

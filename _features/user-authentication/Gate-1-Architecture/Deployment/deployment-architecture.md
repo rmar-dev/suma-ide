@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Deployment Architecture
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Deployment Architecture
 

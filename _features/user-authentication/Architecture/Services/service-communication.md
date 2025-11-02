@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Service Communication
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # SERVICE COMMUNICATION DESIGN
 

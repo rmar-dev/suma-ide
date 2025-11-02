@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Routing Navigation
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Routing and Navigation
 

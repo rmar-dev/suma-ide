@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Security Architecture
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
+
 
 # Security Architecture
 

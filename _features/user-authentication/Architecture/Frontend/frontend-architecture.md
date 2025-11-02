@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Frontend Architecture
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
+
 
 ```markdown
 # Frontend Architecture - User Registration & Authentication

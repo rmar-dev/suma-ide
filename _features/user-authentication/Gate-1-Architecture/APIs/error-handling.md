@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Error Handling
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Error Handling Architecture - SUMA Finance
 ## User Registration & Authentication

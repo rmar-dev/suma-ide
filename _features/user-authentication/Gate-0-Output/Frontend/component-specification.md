@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Component Specification
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Frontend Component Specification - SUMA Finance User Registration & Authentication
 

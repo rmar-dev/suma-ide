@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Migrations
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 Claude configuration file at C:\Users\ricma\.claude.json is corrupted: Unterminated string in JSON at position 8192 (line 44 column 7063)
 

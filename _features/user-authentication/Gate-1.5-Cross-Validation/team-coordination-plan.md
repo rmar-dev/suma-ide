@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Team Coordination Plan
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 {
   "success": false,

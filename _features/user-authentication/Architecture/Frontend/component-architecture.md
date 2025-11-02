@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Component Architecture
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
+
 
 ```markdown
 # Component Architecture: User Registration & Authentication

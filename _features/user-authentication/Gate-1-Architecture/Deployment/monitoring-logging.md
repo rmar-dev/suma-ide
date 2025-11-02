@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Monitoring Logging
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Monitoring and Logging
 

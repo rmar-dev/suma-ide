@@ -1,10 +1,10 @@
 ---
 layout: default
 title: ROADMAP SUMMARY
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
+
 
 #  user registration   authentication - Master Roadmap Summary
 
@@ -41,4 +41,3 @@ This master roadmap provides an overview of the implementation plan for the  use
 - 🔄 Gate 1.5: Dependencies analysis (next)
 - ⏳ Gate 2: Implementation (pending)
 - ⏳ Gate 2.5: Validation (pending)
-

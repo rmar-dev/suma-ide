@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Api Specification
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Backend API Specification - User Registration & Authentication
 

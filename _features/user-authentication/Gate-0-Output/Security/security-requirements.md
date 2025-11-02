@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Security Requirements
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Gate 0: Security Requirements Document
 

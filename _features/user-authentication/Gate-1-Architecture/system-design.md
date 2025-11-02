@@ -1,10 +1,9 @@
 ---
 layout: default
 title: System Design
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # System Design - User Registration & Authentication
 

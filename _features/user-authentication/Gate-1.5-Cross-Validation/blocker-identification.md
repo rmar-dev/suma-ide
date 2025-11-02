@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Blocker Identification
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Blocker Identification
 

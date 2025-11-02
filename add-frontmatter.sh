@@ -23,8 +23,6 @@ find _features/user-authentication -name "*.md" -type f | while read file; do
 ---
 layout: default
 title: $title
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
 

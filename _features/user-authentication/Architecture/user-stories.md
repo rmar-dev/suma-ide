@@ -1,10 +1,9 @@
 ---
 layout: default
 title: User Stories
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # User Stories
 

@@ -1,10 +1,9 @@
 ---
 layout: default
 title: State Management
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 Claude configuration file at C:\Users\ricma\.claude.json is corrupted: Unexpected end of JSON input
 

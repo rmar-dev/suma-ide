@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Risk Assessment
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Gate 1.5: Risk Assessment for SUMA Finance - User Registration & Authentication
 

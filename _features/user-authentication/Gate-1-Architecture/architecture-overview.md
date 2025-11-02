@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Architecture Overview
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Architecture Overview - SUMA Finance User Registration & Authentication
 

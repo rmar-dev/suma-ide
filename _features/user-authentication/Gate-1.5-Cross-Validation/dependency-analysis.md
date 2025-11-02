@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Dependency Analysis
-parent: User Authentication
-grand_parent: Features
 nav_exclude: true
 ---
+
 
 # Dependency Analysis
 
