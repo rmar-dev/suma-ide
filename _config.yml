@@ -5,7 +5,7 @@
 title: SUMA IDE Documentation
 description: A VSCode fork with native MCP integration and full SDLC gating system
 baseurl: "/suma-ide"
-url: "https://ricmar-dev.github.io"
+url: "https://rmar-dev.github.io"
 
 # Theme
 theme: just-the-docs
@@ -36,9 +36,9 @@ nav_sort: case_insensitive
 # Aux links (top right)
 aux_links:
   "SUMA IDE on GitHub":
-    - "https://github.com/ricmar-dev/suma-ide"
+    - "https://github.com/rmar-dev/suma-ide"
   "Report Issue":
-    - "https://github.com/ricmar-dev/suma-ide/issues/new"
+    - "https://github.com/rmar-dev/suma-ide/issues/new"
 
 # Footer
 footer_content: "Copyright &copy; 2025 SUMA IDE Team. Distributed under the MIT License."

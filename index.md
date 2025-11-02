@@ -12,7 +12,7 @@ permalink: /
 {: .fs-6 .fw-300 }
 
 [Get Started](/user_guide/getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/ricmar-dev/suma-ide){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View on GitHub](https://github.com/rmar-dev/suma-ide){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -159,8 +159,8 @@ Categories:
 
 ## Community & Support
 
-- **GitHub Issues**: [Report bugs and request features](https://github.com/ricmar-dev/suma-ide/issues)
-- **Discussions**: [Join the community](https://github.com/ricmar-dev/suma-ide/discussions)
+- **GitHub Issues**: [Report bugs and request features](https://github.com/rmar-dev/suma-ide/issues)
+- **Discussions**: [Join the community](https://github.com/rmar-dev/suma-ide/discussions)
 - **Discord**: [Chat with other users](#)
 - **Email**: support@suma-ide.dev
 
@@ -184,4 +184,4 @@ See the [Contributing Guide](/developer_guide/contributing) to get started.
 
 ## License
 
-SUMA IDE is licensed under the MIT License. See [LICENSE](https://github.com/ricmar-dev/suma-ide/blob/main/LICENSE) for details.
+SUMA IDE is licensed under the MIT License. See [LICENSE](https://github.com/rmar-dev/suma-ide/blob/main/LICENSE) for details.
